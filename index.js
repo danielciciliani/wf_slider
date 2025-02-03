@@ -1,1 +1,1 @@
-console.log('starting slider de pruebas para proyecto');
+console.log('podemos ver la version v0.0.3');
