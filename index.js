@@ -1,1 +1,1 @@
-console.log('podemos ver la version v0.0.3');
+console.log('script para mostrar el contenido de la pagina');
