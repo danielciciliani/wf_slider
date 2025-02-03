@@ -1,0 +1,1 @@
+console.log('starting slider de pruebas para proyecto');
