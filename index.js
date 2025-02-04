@@ -8,7 +8,6 @@ const swiper = new Swiper('.swiper-movies', {
     createElements: true,
     pagination: true,
     autoplay: true,
-    speed: 100,
     breakpoints: {
         640: {
         slidesPerView: 2,
