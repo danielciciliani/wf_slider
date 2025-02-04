@@ -1344,10 +1344,60 @@ figcaption {
 .footer {
   background-color: var(--base-color-brand--blue-dark);
   height: 200px;
+  overflow: hidden;
 }
 
 .header-content {
   color: var(--base-color-neutral--white);
+}
+
+.swiper.swiper-movies {
+  height: 480px;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.swiper-slide {
+  border-radius: 16px;
+  flex: none;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.swiper-wrapper {
+  justify-content: flex-start;
+  align-items: stretch;
+  height: 100%;
+  display: flex;
+}
+
+.swiper-slide-image {
+  aspect-ratio: auto;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  position: absolute;
+  overflow: visible;
+}
+
+.swiper-slide-title {
+  z-index: 0;
+  position: absolute;
+  inset: auto auto 0% 0%;
+}
+
+.swiper-slide-title.header-content {
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  display: block;
+  inset: auto auto 32px 25px;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 991px) {
